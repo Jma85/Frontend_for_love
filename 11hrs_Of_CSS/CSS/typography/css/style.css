@@ -1,0 +1,25 @@
+/*
+Typhography is the way text is arranged and displayed on a web page.
+ It is a very important aspect of web design.
+  It is the art of arranging text in a visually appealing way. 
+  It involves the selection of typefaces, point size, line length, line-spacing, and letter-spacing.
+*/
+body {
+  font-size: 2rem;
+  padding: 10%;
+  font-family: Arial, Helvetica, sans-serif; /*web safe fonts*/
+}
+/*input, button{
+    font: inherit
+}*/
+p {
+    text-decoration: none;
+    text-transform: capitalize;
+    text-align: justify;
+    text-indent: 2em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    font-weight: lighter; /* you can use numbers like 100 for lighter*/
+    font-style: italic; /*italic & oblique*/
+}
